@@ -1,0 +1,32 @@
+# Node dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+frontend/dist/
+dist-ssr/
+
+# Local env files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Database files
+backend/db.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDEs & System files
+.DS_Store
+.vscode/
+.idea/
+
